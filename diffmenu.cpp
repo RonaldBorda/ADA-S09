@@ -92,7 +92,7 @@ table[index].emplace_back(key, value);
     }
 };
 
-HashTable ht(100);  // Crea una tabla hash global con 100 buckets
+HashTable ht(10);  // Crea una tabla hash global con 10 buckets
 
 // Función que muestra el menú interactivo
 void menu() {
